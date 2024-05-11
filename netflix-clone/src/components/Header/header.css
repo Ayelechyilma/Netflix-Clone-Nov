@@ -1,5 +1,5 @@
 .header_outer_container {
-    position: sticky;
+    position: fixed;
     top: 0;
     width: 100%;
     padding: 20px;
@@ -9,8 +9,8 @@
 	color: white;
 
     justify-content: space-between;
-	background-color: rgb(20, 20, 20);
-	/* background-color: transparent; */
+	/* background-color: rgb(20, 20, 20); */
+	background-color: transparent;
 	transition: all 0.5s;
 	transition-timing-function: ease-in;
 }
